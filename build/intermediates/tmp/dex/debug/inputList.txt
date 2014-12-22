@@ -1,0 +1,3 @@
+C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\classes\debug
+C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\jmdns-b01fd78149dd86b7a6e873129438d14c898d91c5.jar
+C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\acra-4.4.0-c08a8052a50fd315d05c7c31b37af7a62af0c209.jar

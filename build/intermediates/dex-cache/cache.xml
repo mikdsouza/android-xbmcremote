@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\libs\jmdns.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e729b495aa5c8fc43a35609081b5fd1340f92c4f">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\jmdns-b01fd78149dd86b7a6e873129438d14c898d91c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\libs\acra-4.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d2613d074b20674c3d05d6d8615292b6172d1366">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\acra-4.4.0-c08a8052a50fd315d05c7c31b37af7a62af0c209.jar" />
+    </item>
+
+</items>
