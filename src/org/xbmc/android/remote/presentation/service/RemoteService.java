@@ -14,7 +14,6 @@ import com.google.android.gms.wearable.NodeApi;
 import com.google.android.gms.wearable.Wearable;
 
 import org.xbmc.android.remote.presentation.controller.RemoteController;
-import org.xbmc.eventclient.ButtonCodes;
 
 public class RemoteService extends Service implements MessageApi.MessageListener, GoogleApiClient.ConnectionCallbacks{
 

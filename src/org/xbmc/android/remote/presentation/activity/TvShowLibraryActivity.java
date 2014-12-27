@@ -23,7 +23,6 @@ package org.xbmc.android.remote.presentation.activity;
 
 import org.xbmc.android.remote.R;
 import org.xbmc.android.remote.business.ManagerFactory;
-import org.xbmc.android.remote.presentation.controller.ActorListController;
 import org.xbmc.android.remote.presentation.controller.FileListController;
 import org.xbmc.android.remote.presentation.controller.MovieGenreListController;
 import org.xbmc.android.remote.presentation.controller.RemoteController;

@@ -13,8 +13,6 @@ import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.NodeApi;
 import com.google.android.gms.wearable.Wearable;
 
-import org.xbmc.eventclient.ButtonCodes;
-
 public class RemoteActivity extends Activity implements GoogleApiClient.ConnectionCallbacks {
 
     private TextView mTextView;
