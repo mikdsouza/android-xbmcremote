@@ -2,6 +2,55 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\exploded-aar\com.google.android.support\wearable\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27f19641b81b1078e653d2f0e5d1ed44d158a785">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\pre-dexed\debug\classes-68adcba2a32416b493174a7674ecd4d5762cddf8.jar" />
+    </item>
+    <item
+        jar="D:\android-sdks\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-0345f06564a899578d6a1c74da7e836d4e242b52.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\pre-dexed\debug\classes-cd45e21f190fcc2f07b320a37a77a237b7792fbe.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-9483749255e2e061a32b2f7575449e48726503c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\classes-f1c25732296a92680d3ee092dfacbb9eece3e393.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\pre-dexed\debug\classes-d9ea497b2691de7357f4172f8ffb7e781c49959d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\pre-dexed\debug\classes-d7618307095f97b9e460a907fd7274483fae2a76.jar" />
+    </item>
+    <item
         jar="C:\Users\Mikhail\git\android-xbmcremote\libs\jmdns.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -9,11 +58,32 @@
         <dex dex="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\jmdns-b01fd78149dd86b7a6e873129438d14c898d91c5.jar" />
     </item>
     <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\classes-42603f05610fa18db3fc40ca7790f72515040b2a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6384c6cd674a22610b932d9464aa6938d067f285">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\pre-dexed\debug\classes-d007d5238cb534ecb572a1e21bcd9fb7ec583cae.jar" />
+    </item>
+    <item
         jar="C:\Users\Mikhail\git\android-xbmcremote\libs\acra-4.4.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="d2613d074b20674c3d05d6d8615292b6172d1366">
         <dex dex="C:\Users\Mikhail\git\android-xbmcremote\build\intermediates\pre-dexed\debug\acra-4.4.0-c08a8052a50fd315d05c7c31b37af7a62af0c209.jar" />
+    </item>
+    <item
+        jar="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Mikhail\git\android-xbmcremote\xbmcwear\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-a49d8e0598b57442b662209fdafa474f0d49173d.jar" />
     </item>
 
 </items>

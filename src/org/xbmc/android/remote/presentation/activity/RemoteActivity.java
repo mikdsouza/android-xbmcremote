@@ -54,7 +54,7 @@ import android.widget.ViewFlipper;
  * 
  * @author Team XBMC
  */
-public class RemoteActivity extends Activity {
+public class RemoteActivity extends Activity{
 
 	private final static String TAG = "RemoteActivity";
 

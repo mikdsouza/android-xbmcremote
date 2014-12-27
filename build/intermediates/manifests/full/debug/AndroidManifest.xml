@@ -6,7 +6,7 @@
     android:versionName="1.0.9" >
 
     <uses-sdk
-        android:minSdkVersion="3"
+        android:minSdkVersion="9"
         android:targetSdkVersion="13" />
 
     <supports-screens
@@ -52,7 +52,11 @@
         </activity>
         <activity
             android:name="org.xbmc.android.remote.presentation.activity.RemoteActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <meta-data
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+        </activity>
         <activity
             android:name="org.xbmc.android.remote.presentation.activity.MusicLibraryActivity"
             android:theme="@android:style/Theme.NoTitleBar" />
@@ -169,6 +173,17 @@
         <provider
             android:name="org.xbmc.android.remote.business.provider.HostProvider"
             android:authorities="org.xbmc.android.provider.remote" />
+
+        <service
+            android:name="org.xbmc.android.remote.presentation.service.RemoteService"
+            android:enabled="true"
+            android:exported="true"
+            android:label="XBMC Remote Service" >
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

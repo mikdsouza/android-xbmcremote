@@ -21,27 +21,14 @@
 
 package org.xbmc.android.remote.presentation.activity;
 
-import org.xbmc.android.remote.R;
-import org.xbmc.android.remote.business.CacheManager;
-import org.xbmc.android.remote.business.ManagerFactory;
-import org.xbmc.android.remote.business.receiver.AndroidBroadcastReceiver;
-import org.xbmc.android.remote.presentation.controller.HomeController;
-import org.xbmc.android.remote.presentation.controller.HomeController.ProgressThread;
-import org.xbmc.android.remote.presentation.notification.NowPlayingNotificationManager;
-import org.xbmc.android.util.KeyTracker.Stage;
-import org.xbmc.android.util.OnLongPressBackKeyTracker;
-import org.xbmc.api.business.IEventClientManager;
-import org.xbmc.api.type.ThumbSize;
-import org.xbmc.eventclient.ButtonCodes;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.IntentFilter;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -59,6 +46,20 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.Toast;
+
+import org.xbmc.android.remote.R;
+import org.xbmc.android.remote.business.CacheManager;
+import org.xbmc.android.remote.business.ManagerFactory;
+import org.xbmc.android.remote.business.receiver.AndroidBroadcastReceiver;
+import org.xbmc.android.remote.presentation.controller.HomeController;
+import org.xbmc.android.remote.presentation.controller.HomeController.ProgressThread;
+import org.xbmc.android.remote.presentation.notification.NowPlayingNotificationManager;
+import org.xbmc.android.remote.presentation.service.RemoteService;
+import org.xbmc.android.util.KeyTracker.Stage;
+import org.xbmc.android.util.OnLongPressBackKeyTracker;
+import org.xbmc.api.business.IEventClientManager;
+import org.xbmc.api.type.ThumbSize;
+import org.xbmc.eventclient.ButtonCodes;
 
 public class HomeActivity extends Activity {
 	
@@ -85,8 +86,8 @@ public class HomeActivity extends Activity {
 
 	private ProgressThread mProgressThread;
     private ProgressDialog mProgressDialog;
-	
-	@Override
+
+    @Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.home);
@@ -123,8 +124,18 @@ public class HomeActivity extends Activity {
         filter.addAction(Intent.ACTION_SCREEN_ON);
 
         registerReceiver(new AndroidBroadcastReceiver(), filter);
+
+        Intent remoteServiceIntent = new Intent(getApplicationContext(), RemoteService.class);
+        getApplicationContext().startService(remoteServiceIntent);
 	}
-	
+
+    @Override
+    public void onDestroy()
+    {
+        super.onDestroy();
+        Intent remoteServiceIntent = new Intent(getApplicationContext(), RemoteService.class);
+        getApplicationContext().stopService(remoteServiceIntent);
+    }
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

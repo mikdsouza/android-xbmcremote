@@ -4,320 +4,340 @@ ADDED from AndroidManifest.xml:2:1
 	xmlns:android
 		ADDED from AndroidManifest.xml:2:11
 	package
-		ADDED from AndroidManifest.xml:3:2
+		ADDED from AndroidManifest.xml:3:5
 	android:versionName
-		ADDED from AndroidManifest.xml:4:2
+		ADDED from AndroidManifest.xml:6:5
 	android:versionCode
-		ADDED from AndroidManifest.xml:5:2
+		ADDED from AndroidManifest.xml:5:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:installLocation
-		ADDED from AndroidManifest.xml:6:2
+		ADDED from AndroidManifest.xml:4:5
 uses-sdk
-ADDED from AndroidManifest.xml:8:2
+ADDED from AndroidManifest.xml:8:5
+MERGED from com.google.android.gms:play-services:6.5.87:18:5
+MERGED from com.android.support:support-v4:21.0.0:15:5
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:8:38
+		ADDED from AndroidManifest.xml:10:9
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:8:12
+		ADDED from AndroidManifest.xml:9:9
 supports-screens
-ADDED from AndroidManifest.xml:10:2
+ADDED from AndroidManifest.xml:12:5
 	android:largeScreens
-		ADDED from AndroidManifest.xml:11:3
+		ADDED from AndroidManifest.xml:14:9
 	android:anyDensity
-		ADDED from AndroidManifest.xml:15:3
+		ADDED from AndroidManifest.xml:13:9
 	android:normalScreens
-		ADDED from AndroidManifest.xml:12:3
+		ADDED from AndroidManifest.xml:15:9
 	android:xlargeScreens
-		ADDED from AndroidManifest.xml:14:3
+		ADDED from AndroidManifest.xml:17:9
 	android:smallScreens
-		ADDED from AndroidManifest.xml:13:3
+		ADDED from AndroidManifest.xml:16:9
 uses-permission#android.permission.INTERNET
-ADDED from AndroidManifest.xml:17:2
+ADDED from AndroidManifest.xml:19:5
 	android:name
-		ADDED from AndroidManifest.xml:17:19
+		ADDED from AndroidManifest.xml:19:22
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from AndroidManifest.xml:18:2
+ADDED from AndroidManifest.xml:20:5
 	android:name
-		ADDED from AndroidManifest.xml:18:19
+		ADDED from AndroidManifest.xml:20:22
 uses-permission#android.permission.VIBRATE
-ADDED from AndroidManifest.xml:19:2
+ADDED from AndroidManifest.xml:21:5
 	android:name
-		ADDED from AndroidManifest.xml:19:19
+		ADDED from AndroidManifest.xml:21:22
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from AndroidManifest.xml:20:2
+ADDED from AndroidManifest.xml:22:5
 	android:name
-		ADDED from AndroidManifest.xml:20:19
+		ADDED from AndroidManifest.xml:22:22
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from AndroidManifest.xml:21:2
+ADDED from AndroidManifest.xml:23:5
 	android:name
-		ADDED from AndroidManifest.xml:21:19
+		ADDED from AndroidManifest.xml:23:22
 uses-permission#android.permission.READ_CONTACTS
-ADDED from AndroidManifest.xml:22:2
+ADDED from AndroidManifest.xml:24:5
 	android:name
-		ADDED from AndroidManifest.xml:22:19
+		ADDED from AndroidManifest.xml:24:22
 uses-permission#android.permission.READ_SMS
-ADDED from AndroidManifest.xml:23:2
+ADDED from AndroidManifest.xml:25:5
 	android:name
-		ADDED from AndroidManifest.xml:23:19
+		ADDED from AndroidManifest.xml:25:22
 uses-permission#android.permission.DISABLE_KEYGUARD
-ADDED from AndroidManifest.xml:24:2
+ADDED from AndroidManifest.xml:26:5
 	android:name
-		ADDED from AndroidManifest.xml:24:19
+		ADDED from AndroidManifest.xml:26:22
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from AndroidManifest.xml:25:2
+ADDED from AndroidManifest.xml:27:5
 	android:name
-		ADDED from AndroidManifest.xml:25:19
+		ADDED from AndroidManifest.xml:27:22
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from AndroidManifest.xml:26:2
+ADDED from AndroidManifest.xml:28:5
 	android:name
-		ADDED from AndroidManifest.xml:26:19
+		ADDED from AndroidManifest.xml:28:22
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from AndroidManifest.xml:27:2
+ADDED from AndroidManifest.xml:29:5
 	android:name
-		ADDED from AndroidManifest.xml:27:19
+		ADDED from AndroidManifest.xml:29:22
 uses-permission#android.permission.WAKE_LOCK
-ADDED from AndroidManifest.xml:28:2
+ADDED from AndroidManifest.xml:30:5
 	android:name
-		ADDED from AndroidManifest.xml:28:19
+		ADDED from AndroidManifest.xml:30:22
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from AndroidManifest.xml:29:2
+ADDED from AndroidManifest.xml:31:5
 	android:name
-		ADDED from AndroidManifest.xml:29:19
+		ADDED from AndroidManifest.xml:31:22
 uses-feature#android.hardware.telephony
-ADDED from AndroidManifest.xml:31:2
+ADDED from AndroidManifest.xml:33:5
 	android:required
-		ADDED from AndroidManifest.xml:31:58
+		ADDED from AndroidManifest.xml:35:9
 	android:name
-		ADDED from AndroidManifest.xml:31:16
+		ADDED from AndroidManifest.xml:34:9
 uses-feature#android.hardware.location.network
-ADDED from AndroidManifest.xml:32:2
+ADDED from AndroidManifest.xml:36:5
 	android:required
-		ADDED from AndroidManifest.xml:32:65
+		ADDED from AndroidManifest.xml:38:9
 	android:name
-		ADDED from AndroidManifest.xml:32:16
+		ADDED from AndroidManifest.xml:37:9
 application
-ADDED from AndroidManifest.xml:34:2
-	android:label
-		ADDED from AndroidManifest.xml:34:45
-	android:icon
-		ADDED from AndroidManifest.xml:34:15
-activity#org.xbmc.android.remote.presentation.activity.HomeActivity
-ADDED from AndroidManifest.xml:35:3
-	android:label
-		ADDED from AndroidManifest.xml:36:4
-	android:theme
-		ADDED from AndroidManifest.xml:37:4
-	android:name
-		ADDED from AndroidManifest.xml:35:13
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:38:4
-action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:39:5
-	android:name
-		ADDED from AndroidManifest.xml:39:13
-category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:40:5
-	android:name
-		ADDED from AndroidManifest.xml:40:15
-activity#org.xbmc.android.remote.presentation.activity.RemoteActivity
-ADDED from AndroidManifest.xml:43:3
+MERGED from com.google.android.gms:play-services:6.5.87:20:5
+MERGED from com.android.support:support-v4:21.0.0:16:5
+	android:label
+		ADDED from AndroidManifest.xml:42:9
+	android:icon
+		ADDED from AndroidManifest.xml:41:9
+activity#org.xbmc.android.remote.presentation.activity.HomeActivity
+ADDED from AndroidManifest.xml:43:9
+	android:label
+		ADDED from AndroidManifest.xml:45:13
 	android:theme
-		ADDED from AndroidManifest.xml:43:66
-	android:name
-		ADDED from AndroidManifest.xml:43:13
-activity#org.xbmc.android.remote.presentation.activity.MusicLibraryActivity
-ADDED from AndroidManifest.xml:44:3
-	android:theme
-		ADDED from AndroidManifest.xml:44:72
+		ADDED from AndroidManifest.xml:46:13
 	android:name
 		ADDED from AndroidManifest.xml:44:13
-activity#org.xbmc.android.remote.presentation.activity.MusicArtistActivity
-ADDED from AndroidManifest.xml:45:3
-	android:theme
-		ADDED from AndroidManifest.xml:45:71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:47:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:48:17
 	android:name
-		ADDED from AndroidManifest.xml:45:13
-activity#org.xbmc.android.remote.presentation.activity.MusicGenreActivity
-ADDED from AndroidManifest.xml:46:3
-	android:theme
-		ADDED from AndroidManifest.xml:46:70
+		ADDED from AndroidManifest.xml:48:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:50:17
 	android:name
-		ADDED from AndroidManifest.xml:46:13
-activity#org.xbmc.android.remote.presentation.activity.MovieLibraryActivity
-ADDED from AndroidManifest.xml:47:3
+		ADDED from AndroidManifest.xml:50:27
+activity#org.xbmc.android.remote.presentation.activity.RemoteActivity
+ADDED from AndroidManifest.xml:53:9
 	android:theme
-		ADDED from AndroidManifest.xml:47:72
-	android:name
-		ADDED from AndroidManifest.xml:47:13
-activity#org.xbmc.android.remote.presentation.activity.MovieDetailsActivity
-ADDED from AndroidManifest.xml:48:3
-	android:theme
-		ADDED from AndroidManifest.xml:48:72
-	android:name
-		ADDED from AndroidManifest.xml:48:13
-activity#org.xbmc.android.remote.presentation.activity.TvShowDetailsActivity
-ADDED from AndroidManifest.xml:49:3
-	android:theme
-		ADDED from AndroidManifest.xml:49:73
-	android:name
-		ADDED from AndroidManifest.xml:49:13
-activity#org.xbmc.android.remote.presentation.activity.ListActivity
-ADDED from AndroidManifest.xml:50:3
-	android:theme
-		ADDED from AndroidManifest.xml:50:64
-	android:name
-		ADDED from AndroidManifest.xml:50:13
-activity#org.xbmc.android.remote.presentation.activity.GridActivity
-ADDED from AndroidManifest.xml:51:3
-	android:theme
-		ADDED from AndroidManifest.xml:51:64
-	android:name
-		ADDED from AndroidManifest.xml:51:13
-activity#org.xbmc.android.remote.presentation.activity.TvShowLibraryActivity
-ADDED from AndroidManifest.xml:52:3
-	android:theme
-		ADDED from AndroidManifest.xml:52:73
-	android:name
-		ADDED from AndroidManifest.xml:52:13
-activity#org.xbmc.android.remote.presentation.activity.NowPlayingActivity
-ADDED from AndroidManifest.xml:53:3
-	android:theme
-		ADDED from AndroidManifest.xml:53:70
-	android:name
-		ADDED from AndroidManifest.xml:53:13
-activity#org.xbmc.android.remote.presentation.activity.PlaylistActivity
-ADDED from AndroidManifest.xml:54:3
-	android:theme
-		ADDED from AndroidManifest.xml:54:68
+		ADDED from AndroidManifest.xml:55:13
 	android:name
 		ADDED from AndroidManifest.xml:54:13
-activity#org.xbmc.android.remote.presentation.activity.AboutActivity
-ADDED from AndroidManifest.xml:55:3
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:55:113
+meta-data#com.google.android.gms.version
+ADDED from AndroidManifest.xml:56:13
+	android:name
+		ADDED from AndroidManifest.xml:57:17
+	android:value
+		ADDED from AndroidManifest.xml:58:17
+activity#org.xbmc.android.remote.presentation.activity.MusicLibraryActivity
+ADDED from AndroidManifest.xml:60:9
 	android:theme
-		ADDED from AndroidManifest.xml:55:65
-	android:name
-		ADDED from AndroidManifest.xml:55:13
-activity#org.xbmc.android.remote.presentation.activity.GestureRemoteActivity
-ADDED from AndroidManifest.xml:56:3
-	android:screenOrientation
-		ADDED from AndroidManifest.xml:56:132
-	android:theme
-		ADDED from AndroidManifest.xml:56:73
-	android:name
-		ADDED from AndroidManifest.xml:56:13
-activity#org.xbmc.android.remote.presentation.activity.SettingsActivity
-ADDED from AndroidManifest.xml:57:3
-	android:name
-		ADDED from AndroidManifest.xml:57:13
-activity#org.xbmc.android.remote.presentation.activity.HostSettingsActivity
-ADDED from AndroidManifest.xml:58:3
-	android:name
-		ADDED from AndroidManifest.xml:58:13
-activity#org.xbmc.android.remote.presentation.activity.EpisodeDetailsActivity
-ADDED from AndroidManifest.xml:59:3
-	android:theme
-		ADDED from AndroidManifest.xml:59:74
-	android:name
-		ADDED from AndroidManifest.xml:59:13
-activity#org.xbmc.android.remote.presentation.activity.MediaIntentActivity
-ADDED from AndroidManifest.xml:60:3
-	android:label
-		ADDED from AndroidManifest.xml:60:119
-	android:theme
-		ADDED from AndroidManifest.xml:60:71
-	android:name
-		ADDED from AndroidManifest.xml:60:13
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:61:4
-action#android.intent.action.VIEW
-ADDED from AndroidManifest.xml:62:5
-	android:name
 		ADDED from AndroidManifest.xml:62:13
-category#android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:63:5
 	android:name
-		ADDED from AndroidManifest.xml:63:15
-category#android.intent.category.BROWSABLE
-ADDED from AndroidManifest.xml:64:5
-	android:name
-		ADDED from AndroidManifest.xml:64:15
-data
-ADDED from AndroidManifest.xml:65:5
-	android:mimeType
-		ADDED from AndroidManifest.xml:65:33
-	android:scheme
-		ADDED from AndroidManifest.xml:65:11
-activity#org.xbmc.android.remote.presentation.activity.UrlIntentActivity
-ADDED from AndroidManifest.xml:75:3
-	android:label
-		ADDED from AndroidManifest.xml:75:117
+		ADDED from AndroidManifest.xml:61:13
+activity#org.xbmc.android.remote.presentation.activity.MusicArtistActivity
+ADDED from AndroidManifest.xml:63:9
 	android:theme
-		ADDED from AndroidManifest.xml:75:69
+		ADDED from AndroidManifest.xml:65:13
 	android:name
-		ADDED from AndroidManifest.xml:75:13
-intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:76:4
-action#android.intent.action.SEND
-ADDED from AndroidManifest.xml:77:5
+		ADDED from AndroidManifest.xml:64:13
+activity#org.xbmc.android.remote.presentation.activity.MusicGenreActivity
+ADDED from AndroidManifest.xml:66:9
+	android:theme
+		ADDED from AndroidManifest.xml:68:13
 	android:name
+		ADDED from AndroidManifest.xml:67:13
+activity#org.xbmc.android.remote.presentation.activity.MovieLibraryActivity
+ADDED from AndroidManifest.xml:69:9
+	android:theme
+		ADDED from AndroidManifest.xml:71:13
+	android:name
+		ADDED from AndroidManifest.xml:70:13
+activity#org.xbmc.android.remote.presentation.activity.MovieDetailsActivity
+ADDED from AndroidManifest.xml:72:9
+	android:theme
+		ADDED from AndroidManifest.xml:74:13
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+activity#org.xbmc.android.remote.presentation.activity.TvShowDetailsActivity
+ADDED from AndroidManifest.xml:75:9
+	android:theme
 		ADDED from AndroidManifest.xml:77:13
-activity#org.xbmc.android.remote.presentation.wizard.setupwizard.SetupWizard
-ADDED from AndroidManifest.xml:82:3
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+activity#org.xbmc.android.remote.presentation.activity.ListActivity
+ADDED from AndroidManifest.xml:78:9
+	android:theme
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:79:13
+activity#org.xbmc.android.remote.presentation.activity.GridActivity
+ADDED from AndroidManifest.xml:81:9
+	android:theme
+		ADDED from AndroidManifest.xml:83:13
 	android:name
 		ADDED from AndroidManifest.xml:82:13
-receiver#org.xbmc.android.remote.business.receiver.AndroidBroadcastReceiver
-ADDED from AndroidManifest.xml:83:3
-	android:label
-		ADDED from AndroidManifest.xml:83:72
-	android:name
-		ADDED from AndroidManifest.xml:83:13
-intent-filter#android.intent.action.PHONE_STATE+android.provider.Telephony.SMS_RECEIVED
-ADDED from AndroidManifest.xml:84:4
-action#android.provider.Telephony.SMS_RECEIVED
-ADDED from AndroidManifest.xml:85:5
+activity#org.xbmc.android.remote.presentation.activity.TvShowLibraryActivity
+ADDED from AndroidManifest.xml:84:9
+	android:theme
+		ADDED from AndroidManifest.xml:86:13
 	android:name
 		ADDED from AndroidManifest.xml:85:13
-action#android.intent.action.PHONE_STATE
-ADDED from AndroidManifest.xml:86:5
-	android:name
-		ADDED from AndroidManifest.xml:86:13
-receiver#org.xbmc.android.remote.business.receiver.AutoStartReceiver
-ADDED from AndroidManifest.xml:89:3
-	android:process
-		ADDED from AndroidManifest.xml:90:4
-	android:name
+activity#org.xbmc.android.remote.presentation.activity.NowPlayingActivity
+ADDED from AndroidManifest.xml:87:9
+	android:theme
 		ADDED from AndroidManifest.xml:89:13
-intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from AndroidManifest.xml:91:4
-action#android.intent.action.BOOT_COMPLETED
-ADDED from AndroidManifest.xml:92:5
 	android:name
+		ADDED from AndroidManifest.xml:88:13
+activity#org.xbmc.android.remote.presentation.activity.PlaylistActivity
+ADDED from AndroidManifest.xml:90:9
+	android:theme
 		ADDED from AndroidManifest.xml:92:13
-receiver#org.xbmc.android.remote.presentation.appwidget.RemoteControllerWidget
-ADDED from AndroidManifest.xml:96:3
 	android:name
+		ADDED from AndroidManifest.xml:91:13
+activity#org.xbmc.android.remote.presentation.activity.AboutActivity
+ADDED from AndroidManifest.xml:93:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:95:13
+	android:theme
 		ADDED from AndroidManifest.xml:96:13
-intent-filter#android.appwidget.action.APPWIDGET_UPDATE+org.xbmc.android.remote.WIDGET_CONTROL
-ADDED from AndroidManifest.xml:97:13
-action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:98:17
 	android:name
-		ADDED from AndroidManifest.xml:99:21
-action#org.xbmc.android.remote.WIDGET_CONTROL
-ADDED from AndroidManifest.xml:100:14
+		ADDED from AndroidManifest.xml:94:13
+activity#org.xbmc.android.remote.presentation.activity.GestureRemoteActivity
+ADDED from AndroidManifest.xml:97:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:99:13
+	android:theme
+		ADDED from AndroidManifest.xml:100:13
 	android:name
-		ADDED from AndroidManifest.xml:100:22
-meta-data#android.appwidget.provider
-ADDED from AndroidManifest.xml:103:13
-	android:resource
-		ADDED from AndroidManifest.xml:105:17
+		ADDED from AndroidManifest.xml:98:13
+activity#org.xbmc.android.remote.presentation.activity.SettingsActivity
+ADDED from AndroidManifest.xml:101:9
 	android:name
-		ADDED from AndroidManifest.xml:104:17
-provider#org.xbmc.android.remote.business.provider.HostProvider
-ADDED from AndroidManifest.xml:109:3
-	android:authorities
-		ADDED from AndroidManifest.xml:109:60
+		ADDED from AndroidManifest.xml:101:19
+activity#org.xbmc.android.remote.presentation.activity.HostSettingsActivity
+ADDED from AndroidManifest.xml:102:9
 	android:name
+		ADDED from AndroidManifest.xml:102:19
+activity#org.xbmc.android.remote.presentation.activity.EpisodeDetailsActivity
+ADDED from AndroidManifest.xml:103:9
+	android:theme
+		ADDED from AndroidManifest.xml:105:13
+	android:name
+		ADDED from AndroidManifest.xml:104:13
+activity#org.xbmc.android.remote.presentation.activity.MediaIntentActivity
+ADDED from AndroidManifest.xml:106:9
+	android:label
+		ADDED from AndroidManifest.xml:108:13
+	android:theme
 		ADDED from AndroidManifest.xml:109:13
+	android:name
+		ADDED from AndroidManifest.xml:107:13
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:110:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:111:17
+	android:name
+		ADDED from AndroidManifest.xml:111:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:113:17
+	android:name
+		ADDED from AndroidManifest.xml:113:27
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:114:17
+	android:name
+		ADDED from AndroidManifest.xml:114:27
+data
+ADDED from AndroidManifest.xml:116:17
+	android:mimeType
+		ADDED from AndroidManifest.xml:117:21
+	android:scheme
+		ADDED from AndroidManifest.xml:118:21
+activity#org.xbmc.android.remote.presentation.activity.UrlIntentActivity
+ADDED from AndroidManifest.xml:133:9
+	android:label
+		ADDED from AndroidManifest.xml:135:13
+	android:theme
+		ADDED from AndroidManifest.xml:136:13
+	android:name
+		ADDED from AndroidManifest.xml:134:13
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:137:13
+action#android.intent.action.SEND
+ADDED from AndroidManifest.xml:138:17
+	android:name
+		ADDED from AndroidManifest.xml:138:25
+activity#org.xbmc.android.remote.presentation.wizard.setupwizard.SetupWizard
+ADDED from AndroidManifest.xml:145:9
+	android:name
+		ADDED from AndroidManifest.xml:145:19
+receiver#org.xbmc.android.remote.business.receiver.AndroidBroadcastReceiver
+ADDED from AndroidManifest.xml:147:9
+	android:label
+		ADDED from AndroidManifest.xml:149:13
+	android:name
+		ADDED from AndroidManifest.xml:148:13
+intent-filter#android.intent.action.PHONE_STATE+android.provider.Telephony.SMS_RECEIVED
+ADDED from AndroidManifest.xml:150:13
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from AndroidManifest.xml:151:17
+	android:name
+		ADDED from AndroidManifest.xml:151:25
+action#android.intent.action.PHONE_STATE
+ADDED from AndroidManifest.xml:152:17
+	android:name
+		ADDED from AndroidManifest.xml:152:25
+receiver#org.xbmc.android.remote.business.receiver.AutoStartReceiver
+ADDED from AndroidManifest.xml:155:9
+	android:process
+		ADDED from AndroidManifest.xml:157:13
+	android:name
+		ADDED from AndroidManifest.xml:156:13
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:158:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:159:17
+	android:name
+		ADDED from AndroidManifest.xml:159:25
+receiver#org.xbmc.android.remote.presentation.appwidget.RemoteControllerWidget
+ADDED from AndroidManifest.xml:162:9
+	android:name
+		ADDED from AndroidManifest.xml:162:19
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE+org.xbmc.android.remote.WIDGET_CONTROL
+ADDED from AndroidManifest.xml:163:13
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:164:17
+	android:name
+		ADDED from AndroidManifest.xml:164:25
+action#org.xbmc.android.remote.WIDGET_CONTROL
+ADDED from AndroidManifest.xml:165:17
+	android:name
+		ADDED from AndroidManifest.xml:165:25
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:168:13
+	android:resource
+		ADDED from AndroidManifest.xml:170:17
+	android:name
+		ADDED from AndroidManifest.xml:169:17
+provider#org.xbmc.android.remote.business.provider.HostProvider
+ADDED from AndroidManifest.xml:173:9
+	android:authorities
+		ADDED from AndroidManifest.xml:175:13
+	android:name
+		ADDED from AndroidManifest.xml:174:13
+service#org.xbmc.android.remote.presentation.service.RemoteService
+ADDED from AndroidManifest.xml:177:9
+	android:label
+		ADDED from AndroidManifest.xml:179:13
+	android:exported
+		ADDED from AndroidManifest.xml:181:13
+	android:enabled
+		ADDED from AndroidManifest.xml:180:13
+	android:name
+		ADDED from AndroidManifest.xml:178:13

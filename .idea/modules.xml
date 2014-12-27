@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-xbmcremote.iml" filepath="$PROJECT_DIR$/android-xbmcremote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xbmcwear/xbmcwear.iml" filepath="$PROJECT_DIR$/xbmcwear/xbmcwear.iml" />
     </modules>
   </component>
 </project>
