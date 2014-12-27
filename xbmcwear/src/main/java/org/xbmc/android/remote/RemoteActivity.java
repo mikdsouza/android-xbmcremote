@@ -46,6 +46,36 @@ public class RemoteActivity extends Activity implements GoogleApiClient.Connecti
         sendMessage(WEAR_MESSAGE_PATH, ButtonCodes.REMOTE_PLAY);
     }
 
+    public void stopButtonOnClick(View v) {
+        //Toast.makeText(getApplicationContext(), "You pressed play", Toast.LENGTH_LONG).show();
+        sendMessage(WEAR_MESSAGE_PATH, ButtonCodes.REMOTE_STOP);
+    }
+
+    public void ffButtonOnClick(View v) {
+        //Toast.makeText(getApplicationContext(), "You pressed play", Toast.LENGTH_LONG).show();
+        sendMessage(WEAR_MESSAGE_PATH, ButtonCodes.REMOTE_FORWARD);
+    }
+
+    public void rewindButtonOnClick(View v) {
+        //Toast.makeText(getApplicationContext(), "You pressed play", Toast.LENGTH_LONG).show();
+        sendMessage(WEAR_MESSAGE_PATH, ButtonCodes.REMOTE_REVERSE);
+    }
+
+    public void nextButtonOnClick(View v) {
+        //Toast.makeText(getApplicationContext(), "You pressed play", Toast.LENGTH_LONG).show();
+        sendMessage(WEAR_MESSAGE_PATH, ButtonCodes.REMOTE_SKIP_PLUS);
+    }
+
+    public void prevButtonOnClick(View v) {
+        //Toast.makeText(getApplicationContext(), "You pressed play", Toast.LENGTH_LONG).show();
+        sendMessage(WEAR_MESSAGE_PATH, ButtonCodes.REMOTE_SKIP_MINUS);
+    }
+
+    public void muteButtonOnClick(View v) {
+        //Toast.makeText(getApplicationContext(), "You pressed play", Toast.LENGTH_LONG).show();
+        sendMessage(WEAR_MESSAGE_PATH, ButtonCodes.REMOTE_MUTE);
+    }
+
     @Override
     public void onConnected(Bundle bundle) {
         Log.d("WearAPI", "Connected");
